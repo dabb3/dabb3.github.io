@@ -19,6 +19,14 @@
           "h1[translate]"
         ]
       }
+    ],
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "-webkit-font-feature-settings"
+        ]
+      }
     ]
   }
 }
