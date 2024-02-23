@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { InterComponent } from '../app/inter/inter.component';
 
 const routes: Routes = [
-  { path: 'inter', component: InterComponent },
+  { path: '', component: InterComponent },
 ];
 
 @NgModule({
