@@ -1,0 +1,12 @@
+<div>
+  <div class="container">
+    <input [(ngModel)]="name" placeholder="Enter your name">
+    <p>{{ 'HELLO' | translate }}, {{ name }}</p>
+  </div>
+  <select #langSelect (change)="switchLanguage(langSelect.value)">
+    <option value="en">English</option>
+    <option value="fr">Français</option>
+    <option value="de">Deutsch</option>
+  </select>
+  <p>{{ currentTime }}</p>
+</div>
